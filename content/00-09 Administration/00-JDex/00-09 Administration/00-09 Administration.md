@@ -1,0 +1,10 @@
+- 00 - JDex
+- 01 - Templates
+- 02 - Attachments
+- 03 - Icons 
+- 04 - AI Instructions
+- 05 - Banners
+- 06 - JDex-Obsidian Guidelines
+- 07 - Jonny Decimal Reference Files
+- 08 - Saved Web
+- 09 - Inbox

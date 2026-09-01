@@ -1,0 +1,1 @@
+[[Obsidian]] will use this directory to look for images, PDFs, etc. Inclusions into files. 

@@ -1,0 +1,1 @@
+This directory, like [[02-Attachments]], will have a lot of loose files in it, not sorted into categories, because the plugins that will use this directory don't like sub-directories.

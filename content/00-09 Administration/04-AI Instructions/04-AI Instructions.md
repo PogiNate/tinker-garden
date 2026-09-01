@@ -1,0 +1,1 @@
+All files in this directory are used to give instructions to specific AI tools that will access this vault in various capacities.

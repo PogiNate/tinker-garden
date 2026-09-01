@@ -1,0 +1,14 @@
+This is a 3D Printing project that I got from a website. I'll put better details in here soon, for now I just want to make a table to calculate filament costs.
+
+![[Pasted image 20260821150708.png|400]]
+
+It requires three filaments: a **base** color, an **accent** color, and a hidden filament that will not be seen when it's put together. The breakdown is apparently as follows:
+
+
+| Purpose    | Amount  |
+| ---------- | ------- |
+| Base Color | 343.75g |
+| Accent     | 38.19g  |
+| Internal   | 52.41g  |
+Given that filament is generally sold in 1Kg spools, this is just over a third of a spool for the base color. The cost per Kg ranges from $10-$18, so if we figure an average cost of $15/Kg it's only about $5.15 in materials as opposed to the price listed above, which was calculated on a base cost of $20/Kg.
+

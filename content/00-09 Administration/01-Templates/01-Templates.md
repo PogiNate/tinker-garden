@@ -1,0 +1,1 @@
+These are the [[Obsidian]] Templates that I use. Right now this directory is empty, but as I figure out how I am using this vault I will inevitably create files in here. 
