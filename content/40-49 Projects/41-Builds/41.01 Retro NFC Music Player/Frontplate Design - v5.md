@@ -1,18 +1,18 @@
 ---
-title: Retro NFC Music Player - Frontplate Design - v5
+title: Frontplate Design - v5
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-frontplate-design-v5
 tags:
-- frontplate
-- enclosure
-- 3d-printing
-- openscad
-- retro-nfc-music-player
+  - frontplate
+  - enclosure
+  - 3d-printing
+  - openscad
+  - retro-nfc-music-player
 ---
 
 # Retro NFC Music Player — Frontplate Design — v5
 
-Supersedes [[Retro NFC Music Player - Frontplate Design - v4]]. **All component measurements now confirmed** — no estimated dimensions remain. 200 × 175 × 4mm plate (13.8mm deep including speaker posts). Parametric OpenSCAD (`frontplate.scad`); one watertight solid.
+Supersedes [[Frontplate Design - v4|Retro NFC Music Player - Frontplate Design - v4]]. **All component measurements now confirmed** — no estimated dimensions remain. 200 × 175 × 4mm plate (13.8mm deep including speaker posts). Parametric OpenSCAD (`frontplate.scad`); one watertight solid.
 
 ## The speaker mounting conflict, and how v5 solves it
 

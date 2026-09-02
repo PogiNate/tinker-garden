@@ -1,19 +1,19 @@
 ---
-title: Retro NFC Music Player - Frontplate Design - v9
+title: Frontplate Design - v9
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-frontplate-design-v9
 tags:
-- frontplate
-- enclosure
-- 3d-printing
-- openscad
-- retro-nfc-music-player
-- backlighting
+  - frontplate
+  - enclosure
+  - 3d-printing
+  - openscad
+  - retro-nfc-music-player
+  - backlighting
 ---
 
 # Retro NFC Music Player — Frontplate Design — v9
 
-Supersedes [[Retro NFC Music Player - Frontplate Design - v8]]. Corrects v8's approach after a key clarification: **there is no separate diffuser panel.** This is a single-part print with a manual filament swap partway through the thickness — black PETG for the front, clear PETG for the rest, fuzzy skin on the rear face for diffusion. Same 200 × 175 × 4mm plate; one watertight solid. Adds `backlight_test_coupon.scad`.
+Supersedes [[Frontplate Design - v8|Retro NFC Music Player - Frontplate Design - v8]]. Corrects v8's approach after a key clarification: **there is no separate diffuser panel.** This is a single-part print with a manual filament swap partway through the thickness — black PETG for the front, clear PETG for the rest, fuzzy skin on the rear face for diffusion. Same 200 × 175 × 4mm plate; one watertight solid. Adds `backlight_test_coupon.scad`.
 
 ## Why v8's through-cuts were wrong for this technique
 

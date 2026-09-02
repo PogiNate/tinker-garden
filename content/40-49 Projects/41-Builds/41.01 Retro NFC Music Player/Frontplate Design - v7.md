@@ -1,18 +1,18 @@
 ---
-title: Retro NFC Music Player - Frontplate Design - v7
+title: Frontplate Design - v7
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-frontplate-design-v7
 tags:
-- frontplate
-- enclosure
-- 3d-printing
-- openscad
-- retro-nfc-music-player
+  - frontplate
+  - enclosure
+  - 3d-printing
+  - openscad
+  - retro-nfc-music-player
 ---
 
 # Retro NFC Music Player — Frontplate Design — v7
 
-Supersedes [[Retro NFC Music Player - Frontplate Design - v6]]. Adds engraved control labels: bold geometric symbols, no text, matching the mid-century-radio direction. Same 200 × 175 × 4mm plate; one watertight solid.
+Supersedes [[Frontplate Design - v6|Retro NFC Music Player - Frontplate Design - v6]]. Adds engraved control labels: bold geometric symbols, no text, matching the mid-century-radio direction. Same 200 × 175 × 4mm plate; one watertight solid.
 
 ## What's engraved
 

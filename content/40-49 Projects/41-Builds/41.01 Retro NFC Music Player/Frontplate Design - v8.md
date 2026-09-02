@@ -1,19 +1,19 @@
 ---
-title: Retro NFC Music Player - Frontplate Design - v8
+title: Frontplate Design - v8
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-frontplate-design-v8
 tags:
-- frontplate
-- enclosure
-- 3d-printing
-- openscad
-- retro-nfc-music-player
-- backlighting
+  - frontplate
+  - enclosure
+  - 3d-printing
+  - openscad
+  - retro-nfc-music-player
+  - backlighting
 ---
 
 # Retro NFC Music Player — Frontplate Design — v8
 
-Supersedes [[Retro NFC Music Player - Frontplate Design - v7]]. Same 200 × 175 × 4mm plate. Two changes, both driven by a new material/lighting plan: **black PETG front plate, backlit from behind through a separate clear-PETG diffuser panel with a fuzzy-skin finish, lit by warm-white LED strips inside the cabinet.**
+Supersedes [[Frontplate Design - v7|Retro NFC Music Player - Frontplate Design - v7]]. Same 200 × 175 × 4mm plate. Two changes, both driven by a new material/lighting plan: **black PETG front plate, backlit from behind through a separate clear-PETG diffuser panel with a fuzzy-skin finish, lit by warm-white LED strips inside the cabinet.**
 
 ## Change 1 — Control labels are now through-cuts, not engraving
 

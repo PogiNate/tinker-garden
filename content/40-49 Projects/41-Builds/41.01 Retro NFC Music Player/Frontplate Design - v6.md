@@ -12,7 +12,7 @@ tags:
 
 # Retro NFC Music Player — Frontplate Design — v6
 
-Supersedes [[Retro NFC Music Player - Frontplate Design - v5]]. 200 × 175 × 4mm plate (13.8mm deep including speaker posts). Parametric OpenSCAD (`frontplate.scad`), plus a standalone `speaker_test_coupon.scad` for validating one speaker mount before printing the full plate. One watertight solid.
+Supersedes [[Frontplate Design - v5|Retro NFC Music Player - Frontplate Design - v5]]. 200 × 175 × 4mm plate (13.8mm deep including speaker posts). Parametric OpenSCAD (`frontplate.scad`), plus a standalone `speaker_test_coupon.scad` for validating one speaker mount before printing the full plate. One watertight solid.
 
 ## Change 1 — Speaker tab spacing corrected
 
