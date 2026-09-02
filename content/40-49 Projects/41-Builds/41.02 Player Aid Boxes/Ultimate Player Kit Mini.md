@@ -29,6 +29,7 @@ To figure costs I'm going to use the filaments used in the images above.
 | Base Color | 343.75g | $21.99   | $7.55  |
 | Accent     | 38.19g  | $13.99   | $0.53  |
 | Internal   | 52.41g  | $13.99   | $0.73  |
+
 This gives a rough total cost of \$8.81 for filament used. 
 
 Using a less fancy-sparkly base filament will obviously reduce the price, but we are still under \$10 for filament. 
