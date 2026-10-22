@@ -118,7 +118,7 @@ plugins:
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/unlisted-pages"
     enabled: true
     options: {}
@@ -131,7 +131,7 @@ plugins:
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
   - source: "@quartz-community/stacked-pages"
-    enabled: false
+    enabled: true
     layout:
       position: afterBody
       priority: 50
@@ -191,7 +191,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -267,12 +267,27 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
+    order: 50
+  - source: github:quartz-plugins/quartz-codeblock-enhancer
+    enabled: true
+    options: 
+      theme: tokyo-night
+      showLangIcon: true
+      copyButton: true
+      alwaysShowing: true
+      excludedLanguages:
+        - mermaid
+        - math
+    order: 25
 layout:
   groups:
     toolbar:
