@@ -3,18 +3,20 @@ title: Retro NFC Music Player - Design and Project Plan - v3
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-design-and-project-plan-v3
 tags:
-- design-doc
-- retro-nfc-music-player
-- gpio-map
-- software-stack
+  - design-doc
+  - retro-nfc-music-player
+  - gpio-map
+  - software-stack
 updated_by: Nathanial Dickson
+publish: false
+status: Implemented
 ---
 
 # Retro NFC Music Player — Design & Project Plan — v3
 
 Supersedes [[Design and Project Plan - v2|Retro NFC Music Player - Design and Project Plan - v2]]. **The change that defines v3: the MAX7219 LED matrix spectrum analyzer is dropped.** It was visually too large for the cabinet, and removing it simplifies three layers at once — hardware (no 5V logic domain, no level shifters), software (no cava, no FIFO tap, no spectrum agent), and the faceplate (see [[Frontplate Design - v3|Retro NFC Music Player - Frontplate Design - v3]]).
 
-Hardware baseline: Pi 5 (2GB) + Active Cooler, Waveshare WM8960 Audio HAT + its 44.5×99.4mm speakers, SSD1309 2.42" OLED (SPI), HiLetgo PN532 (I2C), 6 momentary buttons. Pin-by-pin wiring in [[Wiring Reference|Retro NFC Music Player - Wiring Reference]].
+Hardware baseline: Pi 5 (2GB) + Active Cooler, Waveshare WM8960 Audio HAT + its 44.5×99.4mm speakers, SSD1309 2.42" OLED (SPI), HiLetgo PN532 (I2C), 6 momentary buttons. Pin-by-pin wiring in [[Wiring Reference - v1|Retro NFC Music Player - Wiring Reference]].
 
 **Now surplus:** MAX7219 32×8 matrix, 2× Adafruit Pixel Shifter. Keep for a future build; nothing else in the design depends on them.
 

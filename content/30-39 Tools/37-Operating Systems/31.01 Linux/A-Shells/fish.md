@@ -3,6 +3,7 @@ title: fish
 type: shell
 permalink: 30-39-tools/37-operating-systems/31.01-linux/a-shells/fish
 icon: 🐠
+publish: true
 ---
 
 # 🐠 The Fish Shell

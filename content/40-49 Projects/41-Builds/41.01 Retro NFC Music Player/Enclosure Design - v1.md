@@ -3,11 +3,12 @@ title: Enclosure Design - v1
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/enclosure-design-v1
 tags:
-- retro-player
-- enclosure
-- openscad
+  - retro-player
+  - enclosure
+  - openscad
 created_by: Nathanial Dickson
 updated_by: Nathanial Dickson
+status: Implemented
 ---
 
 # Retro NFC Music Player — Enclosure Design — v1

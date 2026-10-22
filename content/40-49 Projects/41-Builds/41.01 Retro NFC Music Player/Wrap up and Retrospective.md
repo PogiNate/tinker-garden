@@ -1,7 +1,8 @@
 ---
 permalink: tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/wrap-up-and-retrospective
 title: Wrap up and Retrospective
-type: note
+type: retrospective-doc
+status: Final
 ---
 
 # Retro Player Project Retrospective

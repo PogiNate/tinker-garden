@@ -2,6 +2,7 @@
 title: 20-29 Programming Languages
 type: note
 permalink: 20-29-programming-languages/20-29-programming-languages
+publish: true
 ---
 
 Realistically I only use a few programming languages on a recurring basis. So each one gets a category. Aren't they lucky? 

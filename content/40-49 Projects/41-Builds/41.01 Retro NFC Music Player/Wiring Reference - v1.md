@@ -1,14 +1,15 @@
 ---
-title: Retro NFC Music Player - Wiring Reference
-type: note
+title: Retro NFC Music Player - Wiring Reference - v1
+type: bernch-note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-wiring-reference
 tags:
-- wiring
-- gpio-map
-- retro-nfc-music-player
-- reference
-- perma-proto
+  - wiring
+  - gpio-map
+  - retro-nfc-music-player
+  - reference
+  - perma-proto
 updated_by: Nathanial Dickson
+status: Superseded
 ---
 
 # Retro NFC Music Player — Wiring Reference

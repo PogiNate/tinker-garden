@@ -3,13 +3,14 @@ title: Card Label Design - v1
 type: design
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/card-label-design-v1
 tags:
-- nfc
-- cards
-- labels
-- print
-- design
+  - nfc
+  - cards
+  - labels
+  - print
+  - design
 created_by: Nathanial Dickson
 updated_by: Nathanial Dickson
+status: Implemented
 ---
 
 # Retro NFC Music Player — Card Label Design — v1

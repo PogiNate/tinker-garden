@@ -1,8 +1,9 @@
 ---
 tags:
-- linux
-- package-manager
+  - linux
+  - package-manager
 permalink: tinkering/30-39-tools/37-operating-systems/31.01-linux/c-cli-tools/nala
+publish: true
 ---
 
 `nala` is a TUI frontend for `apt`. It adds some useful things like concurrent downloads and (more) intelligent mirror selection. 

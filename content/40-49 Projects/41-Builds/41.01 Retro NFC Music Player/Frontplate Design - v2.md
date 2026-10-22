@@ -1,13 +1,14 @@
 ---
 title: Retro NFC Music Player - Frontplate Design - v2
-type: note
+type: Design Doc
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-frontplate-design-v2
 tags:
-- frontplate
-- enclosure
-- 3d-printing
-- openscad
-- retro-nfc-music-player
+  - frontplate
+  - enclosure
+  - 3d-printing
+  - openscad
+  - retro-nfc-music-player
+status: Superseded
 ---
 
 # Retro NFC Music Player — Frontplate Design — v2
@@ -65,4 +66,4 @@ PLA or PETG, 0.2mm layers, 4–5 perimeters, 15–20% infill. Chamfered windows 
 
 The 5mm speaker standoff leaves a small air gap behind the grille; a thin foam gasket ring closes it if you want tighter coupling.
 
-Wiring tie-in: dry-fit all components to the printed plate, position the Pi stack + [[Wiring Reference|Perma-Proto]] behind it, then cut harness to measured length + 20mm service slack.
+Wiring tie-in: dry-fit all components to the printed plate, position the Pi stack + [[Wiring Reference - v1|Perma-Proto]] behind it, then cut harness to measured length + 20mm service slack.

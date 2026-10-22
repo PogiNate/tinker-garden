@@ -2,6 +2,7 @@
 title: sudo Settings
 type: note
 permalink: tinkering/30-39-tools/37-operating-systems/31.01-linux/b-configurations/sudo-settings
+publish: true
 ---
 
 `sudo` is so useful! But the settings are ancient. There are a few things that I need to remember each time.

@@ -3,15 +3,16 @@ title: Retro NFC Music Player - Design and Project Plan - v2
 type: note
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/retro-nfc-music-player-design-and-project-plan-v2
 tags:
-- design-doc
-- retro-nfc-music-player
-- gpio-map
-- software-stack
+  - design-doc
+  - retro-nfc-music-player
+  - gpio-map
+  - software-stack
+status: Superseded
 ---
 
 # Retro NFC Music Player — Design & Project Plan — v2
 
-Supersedes [[Design and Project Plan - v1|Retro NFC Music Player - Design and Project Plan - v1]] (architecture/GPIO/software sections). Hardware baseline is the [[Parts Manifest - v2|Parts Manifest v2]]: Pi 5 (2GB) + Active Cooler, Waveshare WM8960 Audio HAT, SSD1309 2.42" OLED (SPI), MAX7219 32×8 green LED matrix, HiLetgo PN532 (I2C), 6 momentary buttons (power + play/pause + prev + next + vol up/down), plus 2× Adafruit Pixel Shifter (on hand) for the matrix's 5V logic. Detailed pin-by-pin wiring lives in [[Wiring Reference|Retro NFC Music Player - Wiring Reference]].
+Supersedes [[Design and Project Plan - v1|Retro NFC Music Player - Design and Project Plan - v1]] (architecture/GPIO/software sections). Hardware baseline is the [[Parts Manifest - v2|Parts Manifest v2]]: Pi 5 (2GB) + Active Cooler, Waveshare WM8960 Audio HAT, SSD1309 2.42" OLED (SPI), MAX7219 32×8 green LED matrix, HiLetgo PN532 (I2C), 6 momentary buttons (power + play/pause + prev + next + vol up/down), plus 2× Adafruit Pixel Shifter (on hand) for the matrix's 5V logic. Detailed pin-by-pin wiring lives in [[Wiring Reference - v1|Retro NFC Music Player - Wiring Reference]].
 
 ## 1. System Architecture
 
@@ -69,7 +70,7 @@ The WM8960 HAT claims I2S (GPIO 18–21), I2C control (GPIO 2/3, addr **0x1a**),
 - **MAX7219 logic runs at proper 5V** via 2× [Adafruit Pixel Shifter](https://www.adafruit.com/product/6066) (74HCT2G34, on hand): Shifter A carries DIN + CLK, Shifter B carries CS (second channel spare). Rated 10MHz — fine at luma's default 8MHz SPI; drop to 4MHz if edges look marginal. Cut the debug-NeoPixel trace on the back to keep it dark in the cabinet.
 - **OLED + PN532 are 3.3V** — power from 3V3 rail, no level shifting.
 - **PN532 jumpers → I2C mode** before wiring anything.
-- **Perma-Proto is the power hub only** — 5V rail (matrix + shifters) on one edge, 3V3 rail (OLED, PN532, LED) on the other, grounds returning to Pi pins 39 and 9; all signal wires run point-to-point. Full layout in [[Wiring Reference|Retro NFC Music Player - Wiring Reference]] View 3.
+- **Perma-Proto is the power hub only** — 5V rail (matrix + shifters) on one edge, 3V3 rail (OLED, PN532, LED) on the other, grounds returning to Pi pins 39 and 9; all signal wires run point-to-point. Full layout in [[Wiring Reference - v1|Retro NFC Music Player - Wiring Reference]] View 3.
 - Stack order (from manifest): Pi 5 → Active Cooler → tall stacking header (≥16mm) + standoffs → WM8960. Keep the cooler's intake unobstructed.
 
 ## 3. Software Stack (v2)

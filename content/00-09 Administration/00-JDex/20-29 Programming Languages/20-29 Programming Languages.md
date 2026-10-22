@@ -1,6 +1,7 @@
 ---
 title: Programming Languages
 permalink: tinkering/00-09-administration/00-jdex/20-29-programming-languages/20-29-programming-languages
+publish: true
 ---
 
 - 20 - Administration

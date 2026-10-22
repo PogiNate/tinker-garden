@@ -2,6 +2,8 @@
 title: Retro NFC Music Player - Design and Project Plan - v1
 type: note
 permalink: tinkering/retro-nfc-music-player-design-and-project-plan-1
+status: Superseded
+publish: false
 ---
 
 # Retro NFC Music Player — Design & Project Plan
@@ -27,7 +29,7 @@ A self-contained, retro-styled music player: real analog VU meters, a now-playin
  Music: microSD/USB now ──► later: NFS/SMB mount of NAS (same MPD library, no rearchitecture)
 ```
 
-Everything talks to **MPD** as the single source of truth: the NFC service tells MPD what to play, the buttons send MPD commands, the display service asks MPD what's playing, and the VU service taps the ALSA output stream. This means the NAS enhancement is purely a storage change — mount the NAS share into MPD's music directory and rescan.
+Everything talks to [[32.03 MPD|MPD]] as the single source of truth: the NFC service tells MPD what to play, the buttons send MPD commands, the display service asks MPD what's playing, and the VU service taps the ALSA output stream. This means the NAS enhancement is purely a storage change — mount the NAS share into MPD's music directory and rescan.
 
 ## 2. Hardware (Bill of Materials)
 

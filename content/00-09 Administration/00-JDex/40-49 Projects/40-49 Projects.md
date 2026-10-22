@@ -2,6 +2,7 @@
 title: 40-49 Projects
 type: note
 permalink: tinkering/00-09-administration/00-jdex/40-49-projects/40-49-projects
+publish: true
 ---
 
 * 40 - Administration

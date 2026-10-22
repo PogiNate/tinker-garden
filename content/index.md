@@ -2,13 +2,14 @@
 permalink: tinkering/index
 title: index
 type: note
+publish: true
 ---
 
 # Welcome!
 
 This is my repository of notes and reminders for the things I work on in my spare time. 
 
-I have arranged this vault using the [[Johnny Decimal]] system, for now. I kind of like it, but we'll see if it is more _helpful_ or more of a _hinderance_ over time. 
+I have arranged this vault using the [[07.01 Johnny Decimal System|Johnny Decimal]] system, for now. I kind of like it, but we'll see if it is more _helpful_ or more of a _hinderance_ over time. 
 
 ## What Kindsa Things Are here?
 

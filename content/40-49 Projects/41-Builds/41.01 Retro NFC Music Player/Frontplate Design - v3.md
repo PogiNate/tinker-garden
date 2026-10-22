@@ -53,4 +53,4 @@ Model verified as **one watertight solid**, bbox 220 × 185 × 10mm.
 
 PLA or PETG, 0.2mm layers, 4–5 perimeters, brim. Face-down orientation. NFC pocket ceiling bridges 52mm — support there only if your printer bridges poorly. Heat-set inserts: M2.5 → 3.4mm bores, M3 → 4.0mm bores. Speaker mesh cut to ~46 × 96mm.
 
-Wiring tie-in: dry-fit all components, position the Pi stack + [[Wiring Reference|Perma-Proto]] behind the plate, then cut the harness to measured length + 20mm service slack.
+Wiring tie-in: dry-fit all components, position the Pi stack + [[Wiring Reference - v1|Perma-Proto]] behind the plate, then cut the harness to measured length + 20mm service slack.

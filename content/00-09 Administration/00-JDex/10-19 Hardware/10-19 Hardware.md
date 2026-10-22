@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 - 10 - Administration
 - 11 - PC

@@ -1,10 +1,11 @@
 ---
 tags:
-- cli
-- linux
-- open-source
+  - cli
+  - linux
+  - open-source
 type: tool
 permalink: tinkering/30-39-tools/37-operating-systems/31.01-linux/c-cli-tools/tmux
+publish: true
 ---
 
 # tmux
@@ -45,5 +46,9 @@ bind -r K resize-pane -U 5
 bind -r L resize-pane -R 5
 bind X kill-session
 ```
+
+## Reference Material
+I wrote a book about tmux some time ago. [Painless Tmux](https://leanpub.com/painless_tmux/)
+
 
 [^1]: Short for "terminal multiplexer" or "Muxer" depending on who you ask. Look. I didn't make up those words.

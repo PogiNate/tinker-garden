@@ -2,6 +2,7 @@
 title: Tools
 type: note
 permalink: 00-09-administration/00-jdex/30-39-tools/30-39-tools-2
+publish: true
 ---
 
 - 30 - Administration

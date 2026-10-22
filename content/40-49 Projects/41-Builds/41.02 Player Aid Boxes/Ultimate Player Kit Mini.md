@@ -1,10 +1,12 @@
 ---
 title: Ultimate Player Kit Mini
-type: note
+type: build-note
 permalink: tinkering/40-49-projects/41-builds/41.02-player-aid-boxes/player-aid
 tags:
   - 3d-printing
   - dungeons-and-dragons
+publish: true
+source: https://makerworld.com/en/models/3038763-ultimate-player-kit-mini-version#profileId-3416856
 ---
 
 

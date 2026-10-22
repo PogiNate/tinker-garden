@@ -2,6 +2,7 @@
 title: Retro NFC Music Player - Parts Manifest - v1
 type: note
 permalink: tinkering/retro-nfc-music-player-parts-manifest-v1
+status: Superseded
 ---
 
 # Retro NFC Music Player — Parts Manifest

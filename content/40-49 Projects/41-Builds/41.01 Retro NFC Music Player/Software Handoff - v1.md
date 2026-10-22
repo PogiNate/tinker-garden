@@ -19,7 +19,7 @@ Handoff brief for **Claude Code** picking up the software side of the build. Har
 
 - **Source of truth is the Basic Memory vault**, project `tinkering`. Always pass `project="tinkering"` on every basic-memory call — omitting it can silently resolve to the wrong project. If `tinkering` isn't in `list_memory_projects`, stop and tell Nate.
 - Project folder: `40-49 Projects/41-Builds/41.01 Retro NFC Music Player/`. Start from the index note **41.01 Retro NFC Music Player** — it links every current and superseded doc.
-- **Current design doc:** [[Design and Project Plan - v3|Retro NFC Music Player - Design and Project Plan - v3]] (architecture, GPIO map, software stack, phases, build log). **Pin-level detail:** [[Wiring Reference|Retro NFC Music Player - Wiring Reference]].
+- **Current design doc:** [[Design and Project Plan - v3|Retro NFC Music Player - Design and Project Plan - v3]] (architecture, GPIO map, software stack, phases, build log). **Pin-level detail:** [[Wiring Reference - v1|Retro NFC Music Player - Wiring Reference]].
 - Vault follows **Johnny Decimal**. New project docs go inside the 41.01 folder; never write to the vault root or an ad hoc folder. Vault rules live in `00-09 Administration/04-AI Instructions/04.01 Basic-Memory.md`.
 - **Doc conventions:** docs are versioned (`- v1`, `- v2`…); when superseding, write a new version and keep the old one. Keep the 41.01 index note current. Record corrections and resolved decisions explicitly so they aren't revisited.
 - Basic Memory tip: `write_note` with `overwrite: true` is more reliable than chained `edit_note` calls when content has tables or complex structure; `edit_note` is fine for small single-spot edits.
