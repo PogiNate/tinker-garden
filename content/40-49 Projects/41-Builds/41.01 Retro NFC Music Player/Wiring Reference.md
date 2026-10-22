@@ -8,9 +8,12 @@ tags:
 - retro-nfc-music-player
 - reference
 - perma-proto
+updated_by: Nathanial Dickson
 ---
 
 # Retro NFC Music Player — Wiring Reference
+
+> **Superseded by [[Wiring Reference - v2|Retro NFC Music Player - Wiring Reference - v2]] (2026-10-04).** The PN532 moved off I2C1 to its own bus on GPIO 26/27. Kept for history.
 
 Bench-side companion to [[Design and Project Plan - v3|Retro NFC Music Player - Design and Project Plan - v3]] §2. Three views: by signal, by physical pin, and the Perma-Proto board layout. All header connections are made to the WM8960 HAT's pass-through header at the top of the stack — pin numbering is identical to the Pi's own header. Pin 1 is the corner with the square pad, nearest the microSD end.
 
