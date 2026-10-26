@@ -9,6 +9,7 @@ tags:
   - openscad
   - retro-nfc-music-player
   - backlighting
+status: Superseded
 ---
 
 # Retro NFC Music Player — Frontplate Design — v8

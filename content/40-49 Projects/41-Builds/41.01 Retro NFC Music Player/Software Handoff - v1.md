@@ -3,12 +3,13 @@ title: Software Handoff - v1
 type: guide
 permalink: personal/tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/software-handoff-v1
 tags:
-- retro-nfc-player
-- handoff
-- claude-code
-- software
+  - retro-nfc-player
+  - handoff
+  - claude-code
+  - software
 created_by: Nathanial Dickson
 updated_by: Nathanial Dickson
+publish: false
 ---
 
 # Retro NFC Music Player — Software Handoff — v1

@@ -2,13 +2,15 @@
 title: Frontplate Design - v10
 type: note
 tags:
-- 3d-printing
-- frontplate
-- enclosure
-- openscad
-- retro-nfc-music-player
-- design-doc
+  - 3d-printing
+  - frontplate
+  - enclosure
+  - openscad
+  - retro-nfc-music-player
+  - design-doc
 permalink: tinkering/40-49-projects/41-builds/41.01-retro-nfc-music-player/frontplate-design-v10
+status: Implemented
+publish: false
 ---
 
 # Retro NFC Music Player — Frontplate Design — v10
