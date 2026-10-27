@@ -89,7 +89,9 @@ export default (() => {
           </>
         )}
 
-        <link rel="icon" href={iconPath} />
+	<link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+	<link rel="icon" href="/static/favicon.ico" sizes="any" />
+	<link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
